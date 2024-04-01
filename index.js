@@ -4,6 +4,7 @@ import inquirer from "inquirer";
 // 02. User input for guessing a number - Done
 // 03. Compare user input with computer generated number - Done
 const randomNumber = Math.floor(Math.random() * 6 + 1);
+console.log("Welcome to number guessing game.")
 const answer = await inquirer.prompt([
     {
         name: "userGuessedNumber",
